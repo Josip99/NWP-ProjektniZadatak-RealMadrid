@@ -1,0 +1,6354 @@
+AsyncHttpClient client = new DefaultAsyncHttpClient();
+client.prepare("GET", "https://footapi7.p.rapidapi.com/api/team/2829/players")
+	.setHeader("X-RapidAPI-Key", "6111ce1f2bmshbe1475b8f262e32p15ac3cjsn6ee016a6b98e")
+	.setHeader("X-RapidAPI-Host", "footapi7.p.rapidapi.com")
+	.execute()
+	.toCompletableFuture()
+	.thenAccept(System.out::println)
+	.join();
+
+client.close();
+
+{
+  "foreignPlayers": [
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "AT",
+          "name": "Austria"
+        },
+        "dateOfBirthTimestamp": 709344000,
+        "firstName": "",
+        "height": 180,
+        "id": 66492,
+        "jerseyNumber": "4",
+        "lastName": "",
+        "name": "David Alaba",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 36000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 36000000
+        },
+        "shirtNumber": 4,
+        "shortName": "D. Alaba",
+        "slug": "david-alaba",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 17534
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "BE",
+          "name": "Belgium"
+        },
+        "dateOfBirthTimestamp": 705542400,
+        "firstName": "",
+        "height": 200,
+        "id": 70988,
+        "jerseyNumber": "1",
+        "lastName": "",
+        "name": "Thibaut Courtois",
+        "position": "G",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 44000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 44000000
+        },
+        "retired": false,
+        "shirtNumber": 1,
+        "shortName": "T. Courtois",
+        "slug": "thibaut-courtois",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 24596
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 885081600,
+        "deceased": false,
+        "height": 186,
+        "id": 822519,
+        "jerseyNumber": "3",
+        "name": "Éder Militão",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 73000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 73000000
+        },
+        "retired": false,
+        "shirtNumber": 3,
+        "shortName": "É. Militão",
+        "slug": "eder-militao",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 17527
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 978998400,
+        "firstName": "",
+        "height": 174,
+        "id": 910536,
+        "jerseyNumber": "11",
+        "lastName": "",
+        "name": "Rodrygo",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 107000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 107000000
+        },
+        "shirtNumber": 11,
+        "shortName": "Rodrygo",
+        "slug": "rodrygo",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 65155
+      }
+    },
+    {
+      "player": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 963360000,
+        "firstName": "",
+        "height": 176,
+        "id": 868812,
+        "jerseyNumber": "7",
+        "lastName": "",
+        "name": "Vinícius Júnior",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 156000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 156000000
+        },
+        "retired": false,
+        "shirtNumber": 7,
+        "shortName": "Vinícius",
+        "slug": "vinicius-junior",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 153778
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "dateOfBirthTimestamp": 731116800,
+        "firstName": "",
+        "height": 191,
+        "id": 142622,
+        "jerseyNumber": "22",
+        "lastName": "",
+        "name": "Antonio Rüdiger",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 33000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 33000000
+        },
+        "retired": false,
+        "shirtNumber": 22,
+        "shortName": "A. Rüdiger",
+        "slug": "antonio-rudiger",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 14753
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "dateOfBirthTimestamp": 631411200,
+        "firstName": "",
+        "height": 183,
+        "id": 26502,
+        "jerseyNumber": "8",
+        "lastName": "",
+        "name": "Toni Kroos",
+        "position": "M",
+        "preferredFoot": "Both",
+        "proposedMarketValue": 14500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 14500000
+        },
+        "shirtNumber": 8,
+        "shortName": "T. Kroos",
+        "slug": "toni-kroos",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 47017
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1877472000,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "dateOfBirthTimestamp": 1056844800,
+        "deceased": false,
+        "height": 188,
+        "id": 991011,
+        "jerseyNumber": "5",
+        "name": "Jude Bellingham",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 113000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 113000000
+        },
+        "retired": false,
+        "shirtNumber": 5,
+        "shortName": "J. Bellingham",
+        "slug": "jude-bellingham",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 64687
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1845936000,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 948931200,
+        "deceased": false,
+        "height": 188,
+        "id": 859025,
+        "jerseyNumber": "18",
+        "name": "Aurélien Tchouaméni",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 88000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 88000000
+        },
+        "retired": false,
+        "shirtNumber": 18,
+        "shortName": "A. Tchouaméni",
+        "slug": "aurelien-tchouameni",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 23215
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 1036886400,
+        "firstName": "",
+        "height": 182,
+        "id": 973887,
+        "jerseyNumber": "12",
+        "lastName": "",
+        "name": "Eduardo Camavinga",
+        "position": "M",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 81000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 81000000
+        },
+        "shirtNumber": 12,
+        "shortName": "E. Camavinga",
+        "slug": "camavinga-eduardo",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 28081
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 802569600,
+        "firstName": "",
+        "height": 178,
+        "id": 792073,
+        "jerseyNumber": "23",
+        "lastName": "",
+        "name": "Ferland Mendy",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 27000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 27000000
+        },
+        "shirtNumber": 23,
+        "shortName": "F. Mendy",
+        "slug": "ferland-mendy",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 9219
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "HR",
+          "name": "Croatia"
+        },
+        "dateOfBirthTimestamp": 495072000,
+        "deceased": false,
+        "height": 173,
+        "id": 15466,
+        "jerseyNumber": "10",
+        "name": "Luka Modrić",
+        "position": "M",
+        "preferredFoot": "Both",
+        "proposedMarketValue": 11000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11000000
+        },
+        "retired": false,
+        "shirtNumber": 10,
+        "shortName": "L. Modrić",
+        "slug": "luka-modric",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 90126
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1877472000,
+        "country": {
+          "alpha2": "TR",
+          "name": "Turkey"
+        },
+        "dateOfBirthTimestamp": 1109289600,
+        "deceased": false,
+        "firstName": "Arda Guler",
+        "height": 176,
+        "id": 1091116,
+        "jerseyNumber": "24",
+        "name": "Arda Güler",
+        "position": "M",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 14500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 14500000
+        },
+        "retired": false,
+        "shirtNumber": 24,
+        "shortName": "A. Güler",
+        "slug": "arda-guler",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 26421
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "UA",
+          "name": "Ukraine"
+        },
+        "dateOfBirthTimestamp": 918691200,
+        "firstName": "",
+        "height": 191,
+        "id": 857574,
+        "jerseyNumber": "13",
+        "lastName": "",
+        "name": "Andriy Lunin",
+        "position": "G",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 4700000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 4700000
+        },
+        "shirtNumber": 13,
+        "shortName": "A. Lunin",
+        "slug": "andriy-lunin",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 6834
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "UY",
+          "name": "Uruguay"
+        },
+        "dateOfBirthTimestamp": 901065600,
+        "firstName": "",
+        "height": 181,
+        "id": 831808,
+        "jerseyNumber": "15",
+        "lastName": "",
+        "name": "Federico Valverde",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 97000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 97000000
+        },
+        "shirtNumber": 15,
+        "shortName": "F. Valverde",
+        "slug": "federico-valverde",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 41597
+      }
+    }
+  ],
+  "nationalPlayers": [
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "AT",
+          "name": "Austria"
+        },
+        "dateOfBirthTimestamp": 709344000,
+        "firstName": "",
+        "height": 180,
+        "id": 66492,
+        "jerseyNumber": "4",
+        "lastName": "",
+        "name": "David Alaba",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 36000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 36000000
+        },
+        "shirtNumber": 4,
+        "shortName": "D. Alaba",
+        "slug": "david-alaba",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 17534
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "BE",
+          "name": "Belgium"
+        },
+        "dateOfBirthTimestamp": 705542400,
+        "firstName": "",
+        "height": 200,
+        "id": 70988,
+        "jerseyNumber": "1",
+        "lastName": "",
+        "name": "Thibaut Courtois",
+        "position": "G",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 44000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 44000000
+        },
+        "retired": false,
+        "shirtNumber": 1,
+        "shortName": "T. Courtois",
+        "slug": "thibaut-courtois",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 24596
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 978998400,
+        "firstName": "",
+        "height": 174,
+        "id": 910536,
+        "jerseyNumber": "11",
+        "lastName": "",
+        "name": "Rodrygo",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 107000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 107000000
+        },
+        "shirtNumber": 11,
+        "shortName": "Rodrygo",
+        "slug": "rodrygo",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 65155
+      }
+    },
+    {
+      "player": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 963360000,
+        "firstName": "",
+        "height": 176,
+        "id": 868812,
+        "jerseyNumber": "7",
+        "lastName": "",
+        "name": "Vinícius Júnior",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 156000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 156000000
+        },
+        "retired": false,
+        "shirtNumber": 7,
+        "shortName": "Vinícius",
+        "slug": "vinicius-junior",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 153778
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "dateOfBirthTimestamp": 731116800,
+        "firstName": "",
+        "height": 191,
+        "id": 142622,
+        "jerseyNumber": "22",
+        "lastName": "",
+        "name": "Antonio Rüdiger",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 33000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 33000000
+        },
+        "retired": false,
+        "shirtNumber": 22,
+        "shortName": "A. Rüdiger",
+        "slug": "antonio-rudiger",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 14753
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1877472000,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "dateOfBirthTimestamp": 1056844800,
+        "deceased": false,
+        "height": 188,
+        "id": 991011,
+        "jerseyNumber": "5",
+        "name": "Jude Bellingham",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 113000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 113000000
+        },
+        "retired": false,
+        "shirtNumber": 5,
+        "shortName": "J. Bellingham",
+        "slug": "jude-bellingham",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 64687
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 695088000,
+        "firstName": "",
+        "height": 173,
+        "id": 138572,
+        "jerseyNumber": "2",
+        "lastName": "",
+        "name": "Daniel Carvajal",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 11600000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11600000
+        },
+        "shirtNumber": 2,
+        "shortName": "D. Carvajal",
+        "slug": "daniel-carvajal",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 12849
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 934588800,
+        "firstName": "",
+        "height": 170,
+        "id": 851271,
+        "jerseyNumber": "20",
+        "lastName": "",
+        "name": "Fran García",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 11100000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11100000
+        },
+        "shirtNumber": 20,
+        "shortName": "F. Garcia",
+        "slug": "fran-garcia",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 4344
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 638496000,
+        "deceased": false,
+        "height": 191,
+        "id": 69418,
+        "jerseyNumber": "14",
+        "name": "Joselu",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 6200000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 6200000
+        },
+        "retired": false,
+        "shirtNumber": 14,
+        "shortName": "Joselu",
+        "slug": "joselu",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 5562
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 781142400,
+        "firstName": "",
+        "height": 186,
+        "id": 232422,
+        "jerseyNumber": "25",
+        "lastName": "",
+        "name": "Kepa Arrizabalaga",
+        "position": "G",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 19100000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 19100000
+        },
+        "retired": false,
+        "shirtNumber": 25,
+        "shortName": "K. Arrizabalaga",
+        "slug": "kepa-arrizabalaga",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 11403
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 632620800,
+        "firstName": "",
+        "height": 180,
+        "id": 69404,
+        "jerseyNumber": "6",
+        "lastName": "",
+        "name": "Nacho Fernández",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 6500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 6500000
+        },
+        "shirtNumber": 6,
+        "shortName": "N. Fernández",
+        "slug": "nacho-fernandez",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 8012
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1845936000,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 948931200,
+        "deceased": false,
+        "height": 188,
+        "id": 859025,
+        "jerseyNumber": "18",
+        "name": "Aurélien Tchouaméni",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 88000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 88000000
+        },
+        "retired": false,
+        "shirtNumber": 18,
+        "shortName": "A. Tchouaméni",
+        "slug": "aurelien-tchouameni",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 23215
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 1036886400,
+        "firstName": "",
+        "height": 182,
+        "id": 973887,
+        "jerseyNumber": "12",
+        "lastName": "",
+        "name": "Eduardo Camavinga",
+        "position": "M",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 81000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 81000000
+        },
+        "shirtNumber": 12,
+        "shortName": "E. Camavinga",
+        "slug": "camavinga-eduardo",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 28081
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "HR",
+          "name": "Croatia"
+        },
+        "dateOfBirthTimestamp": 495072000,
+        "deceased": false,
+        "height": 173,
+        "id": 15466,
+        "jerseyNumber": "10",
+        "name": "Luka Modrić",
+        "position": "M",
+        "preferredFoot": "Both",
+        "proposedMarketValue": 11000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11000000
+        },
+        "retired": false,
+        "shirtNumber": 10,
+        "shortName": "L. Modrić",
+        "slug": "luka-modric",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 90126
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1877472000,
+        "country": {
+          "alpha2": "TR",
+          "name": "Turkey"
+        },
+        "dateOfBirthTimestamp": 1109289600,
+        "deceased": false,
+        "firstName": "Arda Guler",
+        "height": 176,
+        "id": 1091116,
+        "jerseyNumber": "24",
+        "name": "Arda Güler",
+        "position": "M",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 14500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 14500000
+        },
+        "retired": false,
+        "shirtNumber": 24,
+        "shortName": "A. Güler",
+        "slug": "arda-guler",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 26421
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "UA",
+          "name": "Ukraine"
+        },
+        "dateOfBirthTimestamp": 918691200,
+        "firstName": "",
+        "height": 191,
+        "id": 857574,
+        "jerseyNumber": "13",
+        "lastName": "",
+        "name": "Andriy Lunin",
+        "position": "G",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 4700000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 4700000
+        },
+        "shirtNumber": 13,
+        "shortName": "A. Lunin",
+        "slug": "andriy-lunin",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 6834
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "UY",
+          "name": "Uruguay"
+        },
+        "dateOfBirthTimestamp": 901065600,
+        "firstName": "",
+        "height": 181,
+        "id": 831808,
+        "jerseyNumber": "15",
+        "lastName": "",
+        "name": "Federico Valverde",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 97000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 97000000
+        },
+        "shirtNumber": 15,
+        "shortName": "F. Valverde",
+        "slug": "federico-valverde",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 41597
+      }
+    }
+  ],
+  "players": [
+    {
+      "player": {
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 963360000,
+        "firstName": "",
+        "height": 176,
+        "id": 868812,
+        "jerseyNumber": "7",
+        "lastName": "",
+        "name": "Vinícius Júnior",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 156000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 156000000
+        },
+        "retired": false,
+        "shirtNumber": 7,
+        "shortName": "Vinícius",
+        "slug": "vinicius-junior",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 153778
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 978998400,
+        "firstName": "",
+        "height": 174,
+        "id": 910536,
+        "jerseyNumber": "11",
+        "lastName": "",
+        "name": "Rodrygo",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 107000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 107000000
+        },
+        "shirtNumber": 11,
+        "shortName": "Rodrygo",
+        "slug": "rodrygo",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 65155
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 638496000,
+        "deceased": false,
+        "height": 191,
+        "id": 69418,
+        "jerseyNumber": "14",
+        "name": "Joselu",
+        "position": "F",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 6200000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 6200000
+        },
+        "retired": false,
+        "shirtNumber": 14,
+        "shortName": "Joselu",
+        "slug": "joselu",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 5562
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "HR",
+          "name": "Croatia"
+        },
+        "dateOfBirthTimestamp": 495072000,
+        "deceased": false,
+        "height": 173,
+        "id": 15466,
+        "jerseyNumber": "10",
+        "name": "Luka Modrić",
+        "position": "M",
+        "preferredFoot": "Both",
+        "proposedMarketValue": 11000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11000000
+        },
+        "retired": false,
+        "shirtNumber": 10,
+        "shortName": "L. Modrić",
+        "slug": "luka-modric",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 90126
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1877472000,
+        "country": {
+          "alpha2": "EN",
+          "name": "England"
+        },
+        "dateOfBirthTimestamp": 1056844800,
+        "deceased": false,
+        "height": 188,
+        "id": 991011,
+        "jerseyNumber": "5",
+        "name": "Jude Bellingham",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 113000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 113000000
+        },
+        "retired": false,
+        "shirtNumber": 5,
+        "shortName": "J. Bellingham",
+        "slug": "jude-bellingham",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 64687
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "dateOfBirthTimestamp": 631411200,
+        "firstName": "",
+        "height": 183,
+        "id": 26502,
+        "jerseyNumber": "8",
+        "lastName": "",
+        "name": "Toni Kroos",
+        "position": "M",
+        "preferredFoot": "Both",
+        "proposedMarketValue": 14500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 14500000
+        },
+        "shirtNumber": 8,
+        "shortName": "T. Kroos",
+        "slug": "toni-kroos",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 47017
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "UY",
+          "name": "Uruguay"
+        },
+        "dateOfBirthTimestamp": 901065600,
+        "firstName": "",
+        "height": 181,
+        "id": 831808,
+        "jerseyNumber": "15",
+        "lastName": "",
+        "name": "Federico Valverde",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 97000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 97000000
+        },
+        "shirtNumber": 15,
+        "shortName": "F. Valverde",
+        "slug": "federico-valverde",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 41597
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 1036886400,
+        "firstName": "",
+        "height": 182,
+        "id": 973887,
+        "jerseyNumber": "12",
+        "lastName": "",
+        "name": "Eduardo Camavinga",
+        "position": "M",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 81000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 81000000
+        },
+        "shirtNumber": 12,
+        "shortName": "E. Camavinga",
+        "slug": "camavinga-eduardo",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 28081
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1877472000,
+        "country": {
+          "alpha2": "TR",
+          "name": "Turkey"
+        },
+        "dateOfBirthTimestamp": 1109289600,
+        "deceased": false,
+        "firstName": "Arda Guler",
+        "height": 176,
+        "id": 1091116,
+        "jerseyNumber": "24",
+        "name": "Arda Güler",
+        "position": "M",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 14500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 14500000
+        },
+        "retired": false,
+        "shirtNumber": 24,
+        "shortName": "A. Güler",
+        "slug": "arda-guler",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 26421
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1845936000,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 948931200,
+        "deceased": false,
+        "height": 188,
+        "id": 859025,
+        "jerseyNumber": "18",
+        "name": "Aurélien Tchouaméni",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 88000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 88000000
+        },
+        "retired": false,
+        "shirtNumber": 18,
+        "shortName": "A. Tchouaméni",
+        "slug": "aurelien-tchouameni",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 23215
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 933638400,
+        "height": 170,
+        "id": 835485,
+        "jerseyNumber": "21",
+        "name": "Brahim Díaz",
+        "position": "M",
+        "preferredFoot": "Both",
+        "proposedMarketValue": 21000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 21000000
+        },
+        "shirtNumber": 21,
+        "shortName": "B. Díaz",
+        "slug": "brahim-diaz",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 10585
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 839376000,
+        "deceased": false,
+        "height": 179,
+        "id": 547838,
+        "jerseyNumber": "19",
+        "name": "Dani Ceballos",
+        "position": "M",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 12700000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 12700000
+        },
+        "retired": false,
+        "shirtNumber": 19,
+        "shortName": "D. Ceballos",
+        "slug": "dani-ceballos",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 8244
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "AT",
+          "name": "Austria"
+        },
+        "dateOfBirthTimestamp": 709344000,
+        "firstName": "",
+        "height": 180,
+        "id": 66492,
+        "jerseyNumber": "4",
+        "lastName": "",
+        "name": "David Alaba",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 36000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 36000000
+        },
+        "shirtNumber": 4,
+        "shortName": "D. Alaba",
+        "slug": "david-alaba",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 17534
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "BR",
+          "name": "Brazil"
+        },
+        "dateOfBirthTimestamp": 885081600,
+        "deceased": false,
+        "height": 186,
+        "id": 822519,
+        "jerseyNumber": "3",
+        "name": "Éder Militão",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 73000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 73000000
+        },
+        "retired": false,
+        "shirtNumber": 3,
+        "shortName": "É. Militão",
+        "slug": "eder-militao",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 17527
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "dateOfBirthTimestamp": 731116800,
+        "firstName": "",
+        "height": 191,
+        "id": 142622,
+        "jerseyNumber": "22",
+        "lastName": "",
+        "name": "Antonio Rüdiger",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 33000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 33000000
+        },
+        "retired": false,
+        "shirtNumber": 22,
+        "shortName": "A. Rüdiger",
+        "slug": "antonio-rudiger",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 14753
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 695088000,
+        "firstName": "",
+        "height": 173,
+        "id": 138572,
+        "jerseyNumber": "2",
+        "lastName": "",
+        "name": "Daniel Carvajal",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 11600000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11600000
+        },
+        "shirtNumber": 2,
+        "shortName": "D. Carvajal",
+        "slug": "daniel-carvajal",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 12849
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1751241600,
+        "country": {
+          "alpha2": "FR",
+          "name": "France"
+        },
+        "dateOfBirthTimestamp": 802569600,
+        "firstName": "",
+        "height": 178,
+        "id": 792073,
+        "jerseyNumber": "23",
+        "lastName": "",
+        "name": "Ferland Mendy",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 27000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 27000000
+        },
+        "shirtNumber": 23,
+        "shortName": "F. Mendy",
+        "slug": "ferland-mendy",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 9219
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 678326400,
+        "firstName": "",
+        "height": 173,
+        "id": 255239,
+        "jerseyNumber": "17",
+        "lastName": "",
+        "name": "Lucas Vázquez",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 8600000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 8600000
+        },
+        "retired": false,
+        "shirtNumber": 17,
+        "shortName": "L. Vázquez",
+        "slug": "lucas-vazquez",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 8215
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 632620800,
+        "firstName": "",
+        "height": 180,
+        "id": 69404,
+        "jerseyNumber": "6",
+        "lastName": "",
+        "name": "Nacho Fernández",
+        "position": "D",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 6500000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 6500000
+        },
+        "shirtNumber": 6,
+        "shortName": "N. Fernández",
+        "slug": "nacho-fernandez",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 8012
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1814313600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 934588800,
+        "firstName": "",
+        "height": 170,
+        "id": 851271,
+        "jerseyNumber": "20",
+        "lastName": "",
+        "name": "Fran García",
+        "position": "D",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 11100000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 11100000
+        },
+        "shirtNumber": 20,
+        "shortName": "F. Garcia",
+        "slug": "fran-garcia",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 4344
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1782777600,
+        "country": {
+          "alpha2": "BE",
+          "name": "Belgium"
+        },
+        "dateOfBirthTimestamp": 705542400,
+        "firstName": "",
+        "height": 200,
+        "id": 70988,
+        "jerseyNumber": "1",
+        "lastName": "",
+        "name": "Thibaut Courtois",
+        "position": "G",
+        "preferredFoot": "Left",
+        "proposedMarketValue": 44000000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 44000000
+        },
+        "retired": false,
+        "shirtNumber": 1,
+        "shortName": "T. Courtois",
+        "slug": "thibaut-courtois",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 24596
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "dateOfBirthTimestamp": 781142400,
+        "firstName": "",
+        "height": 186,
+        "id": 232422,
+        "jerseyNumber": "25",
+        "lastName": "",
+        "name": "Kepa Arrizabalaga",
+        "position": "G",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 19100000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 19100000
+        },
+        "retired": false,
+        "shirtNumber": 25,
+        "shortName": "K. Arrizabalaga",
+        "slug": "kepa-arrizabalaga",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 11403
+      }
+    },
+    {
+      "player": {
+        "contractUntilTimestamp": 1719705600,
+        "country": {
+          "alpha2": "UA",
+          "name": "Ukraine"
+        },
+        "dateOfBirthTimestamp": 918691200,
+        "firstName": "",
+        "height": 191,
+        "id": 857574,
+        "jerseyNumber": "13",
+        "lastName": "",
+        "name": "Andriy Lunin",
+        "position": "G",
+        "preferredFoot": "Right",
+        "proposedMarketValue": 4700000,
+        "proposedMarketValueRaw": {
+          "currency": "EUR",
+          "value": 4700000
+        },
+        "shirtNumber": 13,
+        "shortName": "A. Lunin",
+        "slug": "andriy-lunin",
+        "team": {
+          "country": {
+            "alpha2": "ES",
+            "name": "Spain"
+          },
+          "disabled": false,
+          "gender": "M",
+          "id": 2829,
+          "name": "Real Madrid",
+          "nameCode": "RMA",
+          "national": false,
+          "primaryUniqueTournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "country": {},
+            "displayInverseHomeAwayTeams": false,
+            "id": 8,
+            "name": "LaLiga",
+            "primaryColorHex": "#2f4a89",
+            "secondaryColorHex": "#f4a32e",
+            "slug": "laliga",
+            "userCount": 832871
+          },
+          "shortName": "Real Madrid",
+          "slug": "real-madrid",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          },
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+          },
+          "tournament": {
+            "category": {
+              "alpha2": "ES",
+              "flag": "spain",
+              "id": 32,
+              "name": "Spain",
+              "slug": "spain",
+              "sport": {
+                "id": 1,
+                "name": "Football",
+                "slug": "football"
+              }
+            },
+            "id": 36,
+            "name": "LaLiga",
+            "priority": 579,
+            "slug": "laliga",
+            "uniqueTournament": {
+              "category": {
+                "alpha2": "ES",
+                "flag": "spain",
+                "id": 32,
+                "name": "Spain",
+                "slug": "spain",
+                "sport": {
+                  "id": 1,
+                  "name": "Football",
+                  "slug": "football"
+                }
+              },
+              "country": {},
+              "displayInverseHomeAwayTeams": false,
+              "id": 8,
+              "name": "LaLiga",
+              "primaryColorHex": "#2f4a89",
+              "secondaryColorHex": "#f4a32e",
+              "slug": "laliga",
+              "userCount": 832871
+            }
+          },
+          "type": 0,
+          "userCount": 1558230
+        },
+        "userCount": 6834
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <data>
+        <variable
+            name="event"
+            type="com.realmadridinfo.data.models.Event" />
+    </data>
+
+    <LinearLayout
+        style="@style/rv_item_default">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_tournament"
+                style="@style/tv_default"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:tournament="@{event.tournament}" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                style="@style/tv_default"
+                android:layout_marginTop="@dimen/normal_100"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tournament"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:date="@{event.date}" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_default"
+                android:layout_marginTop="@dimen/normal_100"
+                android:layout_marginStart="@dimen/normal_100"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tournament"
+                app:layout_constraintStart_toEndOf="@+id/tv_date"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:team="@{event.team}" />
+
+            <TextView
+                android:id="@+id/tv_ishome"
+                style="@style/tv_default"
+                android:layout_marginTop="@dimen/normal_100"
+                android:layout_marginStart="@dimen/normal_100"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tournament"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:isHome="@{event.isHome}" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</layout>

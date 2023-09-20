@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="btn_corners">5dp</dimen>
+    <dimen name="btn_height">55dp</dimen>
+    <dimen name="btn_width">200dp</dimen>
+    <dimen name="et_height">55dp</dimen>
+    <dimen name="et_width">300dp</dimen>
+    <dimen name="gl_bottom_percent">0.95</dimen>
+    <dimen name="gl_left_percent">0.95</dimen>
+    <dimen name="gl_start_percent">0.05</dimen>
+    <dimen name="gl_top_percent">0.05</dimen>
+    <dimen name="h1_text_size">32sp</dimen>
+    <dimen name="h2_text_size">24sp</dimen>
+    <dimen name="h3_text_size">19sp</dimen>
+    <dimen name="h4_text_size">16sp</dimen>
+    <dimen name="h5_text_size">13sp</dimen>
+    <dimen name="h6_text_size">10sp</dimen>
+    <dimen name="large_100">32dp</dimen>
+    <dimen name="large_125">40dp</dimen>
+    <dimen name="large_150">48dp</dimen>
+    <dimen name="large_175">56dp</dimen>
+    <dimen name="max_width">480dp</dimen>
+    <dimen name="min_height">55dp</dimen>
+    <dimen name="normal_100">16dp</dimen>
+    <dimen name="normal_125">20dp</dimen>
+    <dimen name="normal_150">24dp</dimen>
+    <dimen name="normal_175">28dp</dimen>
+    <dimen name="normal_200">32dp</dimen>
+    <dimen name="normal_225">36dp</dimen>
+    <dimen name="normal_250">40dp</dimen>
+    <dimen name="normal_275">44dp</dimen>
+    <dimen name="small_100">8dp</dimen>
+    <dimen name="small_50">4dp</dimen>
+    <string name="error_api">Greska u komunikaciji sa Api!</string>
+    <string name="error_error">Greska!</string>
+    <string name="error_firebase">Greska u komunikaciji sa Firebase!</string>
+    <string name="error_invalid_input">Problem sa poljima za unos, molimo provjerite ponovno!</string>
+    <string name="gcm_defaultSenderId" translatable="false">198869416558</string>
+    <string name="google_api_key" translatable="false">AIzaSyBrQchp-0e8sJSAOKeH1v4DYkoA5PuB60w</string>
+    <string name="google_app_id" translatable="false">1:198869416558:android:b3b5d911a1009ad324047f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBrQchp-0e8sJSAOKeH1v4DYkoA5PuB60w</string>
+    <string name="google_storage_bucket" translatable="false">realmadridinfo-157f6.appspot.com</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_enter_text">Unesi text</string>
+    <string name="hint_name">Ime</string>
+    <string name="hint_password">Lozinka</string>
+    <string name="project_id" translatable="false">realmadridinfo-157f6</string>
+    <string name="test_email">admin@admin.com</string>
+    <string name="test_password">adminadmin</string>
+    <string name="test_user">admin</string>
+    <string name="text_app_name">RealMadridInfo</string>
+    <string name="text_confirm">Potvrdi</string>
+    <string name="text_events">Nadolazece utakmice:</string>
+    <string name="text_go_back">Povratak</string>
+    <string name="text_goto_login">Imate racun? Prijavite se!</string>
+    <string name="text_goto_register">Nemate racun? Registrirajte se!</string>
+    <string name="text_height">Visina: </string>
+    <string name="text_home">Pocetna</string>
+    <string name="text_image">Slika</string>
+    <string name="text_jerseyNumber">Broj dresa: </string>
+    <string name="text_login">Prijava</string>
+    <string name="text_logout">Odjava</string>
+    <string name="text_logout_message">Zelite li se odjaviti?</string>
+    <string name="text_main_activity">Glavna aktivnost</string>
+    <string name="text_name">Ime: </string>
+    <string name="text_players">Igraci</string>
+    <string name="text_position">Pozicija: </string>
+    <string name="text_preferredFoot">Dominantna noga: </string>
+    <string name="text_price">Cijena: </string>
+    <string name="text_proposedMarketValue">Cijena: </string>
+    <string name="text_register">Registracija</string>
+    <string name="text_show">Prikazi</string>
+    <string name="text_standings">Pozicija u LaLigi:</string>
+    <string name="text_text">Tekst</string>
+    <style name="Base.Theme.RealMadridInfo" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.RealMadridInfo" parent="Base.Theme.RealMadridInfo"/>
+    <style name="btn_default">
+        <item name="android:layout_width">@dimen/btn_width</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:paddingLeft">@dimen/normal_100</item>
+        <item name="android:paddingRight">@dimen/normal_100</item>
+        <item name="android:background">@drawable/bg_default</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/h4_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="et_default">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/et_height</item>
+        <item name="android:paddingLeft">@dimen/normal_100</item>
+        <item name="android:paddingRight">@dimen/normal_100</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">text</item>
+        <item name="android:background">@drawable/bg_default</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/h4_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="img_default">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@drawable/ic_launcher_round</item>
+    </style>
+    <style name="rv_item_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/normal_100</item>
+    </style>
+    <style name="tv_default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/normal_100</item>
+        <item name="android:paddingRight">@dimen/normal_100</item>
+    </style>
+</resources>

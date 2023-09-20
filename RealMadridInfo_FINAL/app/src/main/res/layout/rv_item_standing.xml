@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <data>
+        <variable
+            name="standing"
+            type="com.realmadridinfo.data.models.Standing" />
+    </data>
+
+    <LinearLayout
+        style="@style/rv_item_default">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_position"
+                style="@style/tv_default"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:position="@{standing.position}" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_default"
+                android:layout_marginStart="@dimen/normal_100"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_position"
+                app:team="@{standing.team}" />
+
+            <TextView
+                android:id="@+id/tv_points"
+                style="@style/tv_default"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:points="@{standing.points}" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</layout>

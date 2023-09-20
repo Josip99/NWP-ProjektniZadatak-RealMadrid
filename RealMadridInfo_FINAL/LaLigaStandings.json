@@ -1,0 +1,780 @@
+//client.prepare("GET", "https://footapi7.p.rapidapi.com/api/tournament/8/season/52376/standings/total")
+//.setHeader("X-RapidAPI-Key", "6111ce1f2bmshbe1475b8f262e32p15ac3cjsn6ee016a6b98e")
+//.setHeader("X-RapidAPI-Host", "footapi7.p.rapidapi.com")
+//.execute()
+//.toCompletableFuture()
+//.thenAccept(System.out::println)
+//.join();
+{
+    "standings": [
+    {
+        "descriptions": [],
+        "id": 105188,
+        "name": "LaLiga 23/24",
+        "rows": [
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867889,
+            "losses": 0,
+            "matches": 5,
+            "points": 15,
+            "position": 1,
+            "promotion": {
+            "id": 804,
+            "text": "Champions League"
+        },
+            "scoresAgainst": 3,
+            "scoresFor": 10,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2829,
+            "name": "Real Madrid",
+            "nameCode": "RMA",
+            "national": false,
+            "shortName": "Real Madrid",
+            "slug": "real-madrid",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#004996",
+            "text": "#004996"
+        },
+            "type": 0,
+            "userCount": 1558230
+        },
+            "wins": 5
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867881,
+            "losses": 0,
+            "matches": 5,
+            "points": 13,
+            "position": 2,
+            "promotion": {
+            "id": 804,
+            "text": "Champions League"
+        },
+            "scoresAgainst": 4,
+            "scoresFor": 13,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2817,
+            "name": "Barcelona",
+            "nameCode": "FCB",
+            "national": false,
+            "shortName": "Barcelona",
+            "slug": "barcelona",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#154284",
+            "secondary": "#9d1009",
+            "text": "#9d1009"
+        },
+            "type": 0,
+            "userCount": 1451274
+        },
+            "wins": 4
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867883,
+            "losses": 0,
+            "matches": 5,
+            "points": 13,
+            "position": 3,
+            "promotion": {
+            "id": 804,
+            "text": "Champions League"
+        },
+            "scoresAgainst": 4,
+            "scoresFor": 11,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 24264,
+            "name": "Girona",
+            "nameCode": "GIR",
+            "national": false,
+            "shortName": "Girona",
+            "slug": "girona",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ff0000",
+            "text": "#ff0000"
+        },
+            "type": 0,
+            "userCount": 54874
+        },
+            "wins": 4
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867876,
+            "losses": 1,
+            "matches": 5,
+            "points": 10,
+            "position": 4,
+            "promotion": {
+            "id": 804,
+            "text": "Champions League"
+        },
+            "scoresAgainst": 4,
+            "scoresFor": 9,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2825,
+            "name": "Athletic Club",
+            "nameCode": "ATH",
+            "national": false,
+            "shortName": "Athletic Club",
+            "slug": "athletic-club",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#aa0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 106031
+        },
+            "wins": 3
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867894,
+            "losses": 2,
+            "matches": 5,
+            "points": 9,
+            "position": 5,
+            "promotion": {
+            "id": 808,
+            "text": "UEFA Europa League"
+        },
+            "scoresAgainst": 4,
+            "scoresFor": 7,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2828,
+            "name": "Valencia",
+            "nameCode": "VCF",
+            "national": false,
+            "shortName": "Valencia",
+            "slug": "valencia",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+        },
+            "type": 0,
+            "userCount": 119310
+        },
+            "wins": 3
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867885,
+            "losses": 2,
+            "matches": 5,
+            "points": 9,
+            "position": 6,
+            "promotion": {
+            "id": 1349,
+            "text": "UEFA Conference League Qualification"
+        },
+            "scoresAgainst": 8,
+            "scoresFor": 6,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2818,
+            "name": "Rayo Vallecano",
+            "nameCode": "RVC",
+            "national": false,
+            "shortName": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 57244
+        },
+            "wins": 3
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867877,
+            "losses": 1,
+            "matches": 4,
+            "points": 7,
+            "position": 7,
+            "scoresAgainst": 4,
+            "scoresFor": 10,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2836,
+            "name": "Atlético Madrid",
+            "nameCode": "ATM",
+            "national": false,
+            "shortName": "Atl. Madrid",
+            "slug": "atletico-madrid",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#c40000",
+            "text": "#c40000"
+        },
+            "type": 0,
+            "userCount": 504232
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867879,
+            "losses": 2,
+            "matches": 5,
+            "points": 7,
+            "position": 8,
+            "scoresAgainst": 7,
+            "scoresFor": 5,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 4488,
+            "name": "Cádiz",
+            "nameCode": "CAD",
+            "national": false,
+            "shortName": "Cádiz",
+            "slug": "cadiz",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#001d43",
+            "text": "#001d43"
+        },
+            "type": 0,
+            "userCount": 50140
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867882,
+            "losses": 2,
+            "matches": 5,
+            "points": 7,
+            "position": 9,
+            "scoresAgainst": 7,
+            "scoresFor": 5,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2859,
+            "name": "Getafe",
+            "nameCode": "GET",
+            "national": false,
+            "shortName": "Getafe",
+            "slug": "getafe",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#00369e",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 64629
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867888,
+            "losses": 2,
+            "matches": 5,
+            "points": 7,
+            "position": 10,
+            "scoresAgainst": 10,
+            "scoresFor": 5,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2816,
+            "name": "Real Betis",
+            "nameCode": "RBB",
+            "national": false,
+            "shortName": "Betis",
+            "slug": "real-betis",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#006633",
+            "text": "#006633"
+        },
+            "type": 0,
+            "userCount": 132846
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 3,
+            "id": 867890,
+            "losses": 1,
+            "matches": 5,
+            "points": 6,
+            "position": 11,
+            "scoresAgainst": 7,
+            "scoresFor": 8,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2824,
+            "name": "Real Sociedad",
+            "nameCode": "RSO",
+            "national": false,
+            "shortName": "Real Sociedad",
+            "slug": "real-sociedad",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#0077c7",
+            "text": "#0077c7"
+        },
+            "type": 0,
+            "userCount": 140070
+        },
+            "wins": 1
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867878,
+            "losses": 3,
+            "matches": 5,
+            "points": 6,
+            "position": 12,
+            "scoresAgainst": 8,
+            "scoresFor": 7,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2820,
+            "name": "Osasuna",
+            "nameCode": "OSA",
+            "national": false,
+            "shortName": "Osasuna",
+            "slug": "osasuna",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#14213d",
+            "text": "#14213d"
+        },
+            "type": 0,
+            "userCount": 67712
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867895,
+            "losses": 3,
+            "matches": 5,
+            "points": 6,
+            "position": 13,
+            "scoresAgainst": 10,
+            "scoresFor": 8,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2819,
+            "name": "Villarreal",
+            "nameCode": "VIL",
+            "national": false,
+            "shortName": "Villarreal",
+            "slug": "villarreal",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#013765",
+            "text": "#013765"
+        },
+            "type": 0,
+            "userCount": 181480
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867880,
+            "losses": 3,
+            "matches": 5,
+            "points": 6,
+            "position": 14,
+            "scoresAgainst": 7,
+            "scoresFor": 5,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2885,
+            "name": "Deportivo Alavés",
+            "nameCode": "ALA",
+            "national": false,
+            "shortName": "Alavés",
+            "slug": "deportivo-alaves",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#0232a0",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 33662
+        },
+            "wins": 2
+        },
+        {
+            "descriptions": [],
+            "draws": 2,
+            "id": 867887,
+            "losses": 2,
+            "matches": 5,
+            "points": 5,
+            "position": 15,
+            "scoresAgainst": 5,
+            "scoresFor": 4,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2826,
+            "name": "Mallorca",
+            "nameCode": "MAL",
+            "national": false,
+            "shortName": "Mallorca",
+            "slug": "mallorca",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#000000",
+            "text": "#000000"
+        },
+            "type": 0,
+            "userCount": 48683
+        },
+            "wins": 1
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867886,
+            "losses": 3,
+            "matches": 5,
+            "points": 4,
+            "position": 16,
+            "scoresAgainst": 7,
+            "scoresFor": 4,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2821,
+            "name": "Celta Vigo",
+            "nameCode": "RCC",
+            "national": false,
+            "shortName": "Celta",
+            "slug": "celta-vigo",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#6cace4",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 65380
+        },
+            "wins": 1
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867891,
+            "losses": 3,
+            "matches": 4,
+            "points": 3,
+            "position": 17,
+            "scoresAgainst": 8,
+            "scoresFor": 6,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2833,
+            "name": "Sevilla",
+            "nameCode": "SEV",
+            "national": false,
+            "shortName": "Sevilla",
+            "slug": "sevilla",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cc1020",
+            "text": "#cc1020"
+        },
+            "type": 0,
+            "userCount": 273552
+        },
+            "wins": 1
+        },
+        {
+            "descriptions": [],
+            "draws": 0,
+            "id": 867884,
+            "losses": 4,
+            "matches": 5,
+            "points": 3,
+            "position": 18,
+            "promotion": {
+            "id": 3,
+            "text": "Relegation"
+        },
+            "scoresAgainst": 16,
+            "scoresFor": 9,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 33779,
+            "name": "Granada",
+            "nameCode": "GCF",
+            "national": false,
+            "shortName": "Granada",
+            "slug": "granada",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#cc0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 36572
+        },
+            "wins": 1
+        },
+        {
+            "descriptions": [],
+            "draws": 2,
+            "id": 867893,
+            "losses": 3,
+            "matches": 5,
+            "points": 2,
+            "position": 19,
+            "promotion": {
+            "id": 3,
+            "text": "Relegation"
+        },
+            "scoresAgainst": 4,
+            "scoresFor": 1,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 6577,
+            "name": "Las Palmas",
+            "nameCode": "LPA",
+            "national": false,
+            "shortName": "Las Palmas",
+            "slug": "las-palmas",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#e8f541",
+            "secondary": "#f3f845",
+            "text": "#f3f845"
+        },
+            "type": 0,
+            "userCount": 29977
+        },
+            "wins": 0
+        },
+        {
+            "descriptions": [],
+            "draws": 1,
+            "id": 867892,
+            "losses": 4,
+            "matches": 5,
+            "points": 1,
+            "position": 20,
+            "promotion": {
+            "id": 3,
+            "text": "Relegation"
+        },
+            "scoresAgainst": 11,
+            "scoresFor": 5,
+            "team": {
+            "disabled": false,
+            "gender": "M",
+            "id": 2858,
+            "name": "Almería",
+            "nameCode": "ALM",
+            "national": false,
+            "shortName": "Almería",
+            "slug": "almeria",
+            "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+        },
+            "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+        },
+            "type": 0,
+            "userCount": 44836
+        },
+            "wins": 0
+        }
+        ],
+        "tieBreakingRule": {
+        "id": 1239,
+        "text": "In the event that two (or more) teams have an equal number of points, the following rules break the tie:\n\n1. Head-to-head if all tied teams have paired matches\n2. Goal difference\n3. Goals scored"
+    },
+        "tournament": {
+        "category": {
+        "alpha2": "ES",
+        "flag": "spain",
+        "id": 32,
+        "name": "Spain",
+        "slug": "spain",
+        "sport": {
+        "id": 1,
+        "name": "Football",
+        "slug": "football"
+    }
+    },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+        "category": {
+        "alpha2": "ES",
+        "flag": "spain",
+        "id": 32,
+        "name": "Spain",
+        "slug": "spain",
+        "sport": {
+        "id": 1,
+        "name": "Football",
+        "slug": "football"
+    }
+    },
+        "displayInverseHomeAwayTeams": false,
+        "hasPerformanceGraphFeature": true,
+        "id": 8,
+        "name": "LaLiga",
+        "primaryColorHex": "#2f4a89",
+        "secondaryColorHex": "#f4a32e",
+        "slug": "laliga",
+        "userCount": 832871
+    }
+    },
+        "type": "total",
+        "updatedAtTimestamp": 1687466138
+    }
+    ]
+}

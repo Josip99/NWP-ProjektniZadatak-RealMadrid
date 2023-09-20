@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="hint_enter_text">Unesi text</string>
+    <string name="text_main_activity">Glavna aktivnost</string>
+    <string name="text_image">Slika</string>
+    <string name="text_text">Tekst</string>
+    <string name="text_show">Prikazi</string>
+
+    <string name="text_app_name">RealMadridInfo</string>
+    <string name="text_login">Prijava</string>
+    <string name="text_goto_register">Nemate racun? Registrirajte se!</string>
+    <string name="hint_password">Lozinka</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Ime</string>
+    <string name="text_register">Registracija</string>
+    <string name="text_goto_login">Imate racun? Prijavite se!</string>
+    <string name="text_go_back">Povratak</string>
+    <string name="text_confirm">Potvrdi</string>
+    <string name="text_logout">Odjava</string>
+    <string name="text_logout_message">Zelite li se odjaviti?</string>
+    <string name="text_home">Pocetna</string>
+    <string name="text_standings">Pozicija u LaLigi:</string>
+    <string name="text_events">Nadolazece utakmice:</string>
+    <string name="text_players">Igraci</string>
+    <string name="text_name">Ime: </string>
+    <string name="text_price">Cijena: </string>
+    <string name="text_proposedMarketValue">Cijena: </string>
+    <string name="text_height">Visina: </string>
+    <string name="text_jerseyNumber">Broj dresa: </string>
+    <string name="text_position">Pozicija: </string>
+    <string name="text_preferredFoot">Dominantna noga: </string>
+
+
+    <string name="error_error">Greska!</string>
+    <string name="error_firebase">Greska u komunikaciji sa Firebase!</string>
+    <string name="error_api">Greska u komunikaciji sa Api!</string>
+    <string name="error_invalid_input">Problem sa poljima za unos, molimo provjerite ponovno!</string>
+
+    <string name="test_user">admin</string>
+    <string name="test_email">admin@admin.com</string>
+    <string name="test_password">adminadmin</string>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                              
+                                                         
+
+    
+                 
+                           
+                                                             
+           
+
+    <LinearLayout
+        style="@style/rv_item_default" android:tag="layout/rv_item_standing_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_position"
+                style="@style/tv_default"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:tag="binding_1"             />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_default"
+                android:layout_marginStart="@dimen/normal_100"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_position"
+                android:tag="binding_2"     />
+
+            <TextView
+                android:id="@+id/tv_points"
+                style="@style/tv_default"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:tag="binding_3"         />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+         

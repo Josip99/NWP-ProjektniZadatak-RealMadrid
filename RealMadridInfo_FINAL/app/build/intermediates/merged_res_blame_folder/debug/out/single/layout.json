@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_login.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/activity_user_auth.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/activity_user_auth.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/rv_item_player.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/rv_item_player.xml"
+    },
+    {
+        "merged": "com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_login.xml",
+        "source": "com.realmadridinfo.app-main-67:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_register.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/rv_item_event.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/rv_item_event.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/rv_item_standing.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/rv_item_standing.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_players.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/fragment_players.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/activity_main.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_player_details.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/fragment_player_details.xml"
+    },
+    {
+        "merged": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_home.xml",
+        "source": "/home/mtvrdojevic/.gradle/daemon/8.0/com.realmadridinfo.app-main-67:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.realmadridinfo.app-mergeDebugResources-64:/layout/fragment_register.xml",
+        "source": "com.realmadridinfo.app-main-67:/layout/fragment_register.xml"
+    }
+]

@@ -1,0 +1,3599 @@
+{
+  "events": [
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2547,
+        "name": "1. FC Union Berlin",
+        "nameCode": "FCU",
+        "national": false,
+        "shortName": "Union Berlin",
+        "slug": "1-fc-union-berlin",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 96689
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "XabsEgb",
+      "detailId": 1,
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11605850,
+      "roundInfo": {
+        "round": 1
+      },
+      "slug": "real-madrid-1-fc-union-berlin",
+      "startTimestamp": 1695228300,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 1464,
+        "name": "UEFA Champions League, Group C",
+        "priority": 589,
+        "slug": "uefa-champions-league-group-c",
+        "uniqueTournament": {
+          "category": {
+            "flag": "europe",
+            "id": 1465,
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "name": "UEFA Champions League",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "slug": "uefa-champions-league",
+          "userCount": 1129591
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsLgb",
+      "detailId": 1,
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2836,
+        "name": "Atlético Madrid",
+        "nameCode": "ATM",
+        "national": false,
+        "shortName": "Atl. Madrid",
+        "slug": "atletico-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#c40000",
+          "text": "#c40000"
+        },
+        "type": 0,
+        "userCount": 504232
+      },
+      "id": 11369316,
+      "roundInfo": {
+        "round": 6
+      },
+      "slug": "atletico-madrid-real-madrid",
+      "startTimestamp": 1695582000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 6577,
+        "name": "Las Palmas",
+        "nameCode": "LPA",
+        "national": false,
+        "shortName": "Las Palmas",
+        "slug": "las-palmas",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#e8f541",
+          "secondary": "#f3f845",
+          "text": "#f3f845"
+        },
+        "type": 0,
+        "userCount": 29977
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsCGc",
+      "detailId": 1,
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369333,
+      "roundInfo": {
+        "round": 7
+      },
+      "slug": "las-palmas-real-madrid",
+      "startTimestamp": 1695834000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsoKj",
+      "detailId": 1,
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 24264,
+        "name": "Girona",
+        "nameCode": "GIR",
+        "national": false,
+        "shortName": "Girona",
+        "slug": "girona",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "type": 0,
+        "userCount": 54874
+      },
+      "id": 11369342,
+      "roundInfo": {
+        "round": 8
+      },
+      "slug": "girona-real-madrid",
+      "startTimestamp": 1696091400,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "oebsEgb",
+      "detailId": 1,
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "IT",
+          "name": "Italy"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2714,
+        "name": "Napoli",
+        "nameCode": "NAP",
+        "national": false,
+        "shortName": "Napoli",
+        "slug": "napoli",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#008cea",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 501690
+      },
+      "id": 11605847,
+      "roundInfo": {
+        "round": 2
+      },
+      "slug": "real-madrid-napoli",
+      "startTimestamp": 1696359600,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 1464,
+        "name": "UEFA Champions League, Group C",
+        "priority": 589,
+        "slug": "uefa-champions-league-group-c",
+        "uniqueTournament": {
+          "category": {
+            "flag": "europe",
+            "id": 1465,
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "name": "UEFA Champions League",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "slug": "uefa-champions-league",
+          "userCount": 1129591
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2820,
+        "name": "Osasuna",
+        "nameCode": "OSA",
+        "national": false,
+        "shortName": "Osasuna",
+        "slug": "osasuna",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#14213d",
+          "text": "#14213d"
+        },
+        "type": 0,
+        "userCount": 67712
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "vgbsEgb",
+      "detailId": 1,
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369354,
+      "roundInfo": {
+        "round": 9
+      },
+      "slug": "real-madrid-osasuna",
+      "startTimestamp": 1696688100,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsIgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2833,
+        "name": "Sevilla",
+        "nameCode": "SEV",
+        "national": false,
+        "shortName": "Sevilla",
+        "slug": "sevilla",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#cc1020",
+          "text": "#cc1020"
+        },
+        "type": 0,
+        "userCount": 273552
+      },
+      "id": 11369364,
+      "roundInfo": {
+        "round": 10
+      },
+      "slug": "sevilla-real-madrid",
+      "startTimestamp": 1698001200,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsZjb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "PT",
+          "name": "Portugal"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2999,
+        "name": "Sporting Braga",
+        "nameCode": "BRA",
+        "national": false,
+        "shortName": "Braga",
+        "slug": "sporting-braga",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 112726
+      },
+      "id": 11605852,
+      "roundInfo": {
+        "round": 3
+      },
+      "slug": "sporting-braga-real-madrid",
+      "startTimestamp": 1698174000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 1464,
+        "name": "UEFA Champions League, Group C",
+        "priority": 589,
+        "slug": "uefa-champions-league-group-c",
+        "uniqueTournament": {
+          "category": {
+            "flag": "europe",
+            "id": 1465,
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "name": "UEFA Champions League",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "slug": "uefa-champions-league",
+          "userCount": 1129591
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "rgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2817,
+        "name": "Barcelona",
+        "nameCode": "FCB",
+        "national": false,
+        "shortName": "Barcelona",
+        "slug": "barcelona",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "type": 0,
+        "userCount": 1451274
+      },
+      "id": 11369369,
+      "roundInfo": {
+        "round": 11
+      },
+      "slug": "real-madrid-barcelona",
+      "startTimestamp": 1698606000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2818,
+        "name": "Rayo Vallecano",
+        "nameCode": "RVC",
+        "national": false,
+        "shortName": "Rayo Vallecano",
+        "slug": "rayo-vallecano",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 57244
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "tgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369385,
+      "roundInfo": {
+        "round": 12
+      },
+      "slug": "real-madrid-rayo-vallecano",
+      "startTimestamp": 1699210800,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "PT",
+          "name": "Portugal"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2999,
+        "name": "Sporting Braga",
+        "nameCode": "BRA",
+        "national": false,
+        "shortName": "Braga",
+        "slug": "sporting-braga",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 112726
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsZjb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11605848,
+      "roundInfo": {
+        "round": 4
+      },
+      "slug": "sporting-braga-real-madrid",
+      "startTimestamp": 1699473600,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 1464,
+        "name": "UEFA Champions League, Group C",
+        "priority": 589,
+        "slug": "uefa-champions-league-group-c",
+        "uniqueTournament": {
+          "category": {
+            "flag": "europe",
+            "id": 1465,
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "name": "UEFA Champions League",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "slug": "uefa-champions-league",
+          "userCount": 1129591
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2828,
+        "name": "Valencia",
+        "nameCode": "VCF",
+        "national": false,
+        "shortName": "Valencia",
+        "slug": "valencia",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "type": 0,
+        "userCount": 119310
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "DgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369390,
+      "roundInfo": {
+        "round": 13
+      },
+      "slug": "real-madrid-valencia",
+      "startTimestamp": 1699815600,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsNOb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 4488,
+        "name": "Cádiz",
+        "nameCode": "CAD",
+        "national": false,
+        "shortName": "Cádiz",
+        "slug": "cadiz",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffff00",
+          "secondary": "#001d43",
+          "text": "#001d43"
+        },
+        "type": 0,
+        "userCount": 50140
+      },
+      "id": 11369399,
+      "roundInfo": {
+        "round": 14
+      },
+      "slug": "cadiz-real-madrid",
+      "startTimestamp": 1701025200,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "IT",
+          "name": "Italy"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2714,
+        "name": "Napoli",
+        "nameCode": "NAP",
+        "national": false,
+        "shortName": "Napoli",
+        "slug": "napoli",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#008cea",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 501690
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "oebsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11605954,
+      "roundInfo": {
+        "round": 5
+      },
+      "slug": "real-madrid-napoli",
+      "startTimestamp": 1701288000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 1464,
+        "name": "UEFA Champions League, Group C",
+        "priority": 589,
+        "slug": "uefa-champions-league-group-c",
+        "uniqueTournament": {
+          "category": {
+            "flag": "europe",
+            "id": 1465,
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "name": "UEFA Champions League",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "slug": "uefa-champions-league",
+          "userCount": 1129591
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 33779,
+        "name": "Granada",
+        "nameCode": "GCF",
+        "national": false,
+        "shortName": "Granada",
+        "slug": "granada",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 36572
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsEAn",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369415,
+      "roundInfo": {
+        "round": 15
+      },
+      "slug": "granada-real-madrid",
+      "startTimestamp": 1701630000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "qgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2816,
+        "name": "Real Betis",
+        "nameCode": "RBB",
+        "national": false,
+        "shortName": "Betis",
+        "slug": "real-betis",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#006633",
+          "text": "#006633"
+        },
+        "type": 0,
+        "userCount": 132846
+      },
+      "id": 11369421,
+      "roundInfo": {
+        "round": 16
+      },
+      "slug": "real-madrid-real-betis",
+      "startTimestamp": 1702234800,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "XabsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "DE",
+          "name": "Germany"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2547,
+        "name": "1. FC Union Berlin",
+        "nameCode": "FCU",
+        "national": false,
+        "shortName": "Union Berlin",
+        "slug": "1-fc-union-berlin",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 96689
+      },
+      "id": 11605957,
+      "roundInfo": {
+        "round": 6
+      },
+      "slug": "real-madrid-1-fc-union-berlin",
+      "startTimestamp": 1702411200,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "flag": "europe",
+          "id": 1465,
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 1464,
+        "name": "UEFA Champions League, Group C",
+        "priority": 589,
+        "slug": "uefa-champions-league-group-c",
+        "uniqueTournament": {
+          "category": {
+            "flag": "europe",
+            "id": 1465,
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 7,
+          "name": "UEFA Champions League",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "slug": "uefa-champions-league",
+          "userCount": 1129591
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2819,
+        "name": "Villarreal",
+        "nameCode": "VIL",
+        "national": false,
+        "shortName": "Villarreal",
+        "slug": "villarreal",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffff00",
+          "secondary": "#013765",
+          "text": "#013765"
+        },
+        "type": 0,
+        "userCount": 181480
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "ugbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369431,
+      "roundInfo": {
+        "round": 17
+      },
+      "slug": "real-madrid-villarreal",
+      "startTimestamp": 1702839600,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsKhb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2885,
+        "name": "Deportivo Alavés",
+        "nameCode": "ALA",
+        "national": false,
+        "shortName": "Alavés",
+        "slug": "deportivo-alaves",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0232a0",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 33662
+      },
+      "id": 11369444,
+      "roundInfo": {
+        "round": 18
+      },
+      "slug": "deportivo-alaves-real-madrid",
+      "startTimestamp": 1703102400,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2826,
+        "name": "Mallorca",
+        "nameCode": "MAL",
+        "national": false,
+        "shortName": "Mallorca",
+        "slug": "mallorca",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "type": 0,
+        "userCount": 48683
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "BgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369455,
+      "roundInfo": {
+        "round": 19
+      },
+      "slug": "real-madrid-mallorca",
+      "startTimestamp": 1704312000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "Egbsjhb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2859,
+        "name": "Getafe",
+        "nameCode": "GET",
+        "national": false,
+        "shortName": "Getafe",
+        "slug": "getafe",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#00369e",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 64629
+      },
+      "id": 11369463,
+      "roundInfo": {
+        "round": 20
+      },
+      "slug": "getafe-real-madrid",
+      "startTimestamp": 1705176000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2858,
+        "name": "Almería",
+        "nameCode": "ALM",
+        "national": false,
+        "shortName": "Almería",
+        "slug": "almeria",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 44836
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "Egbsihb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11369470,
+      "roundInfo": {
+        "round": 21
+      },
+      "slug": "almeria-real-madrid",
+      "startTimestamp": 1705867200,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsCGc",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 6577,
+        "name": "Las Palmas",
+        "nameCode": "LPA",
+        "national": false,
+        "shortName": "Las Palmas",
+        "slug": "las-palmas",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#e8f541",
+          "secondary": "#f3f845",
+          "text": "#f3f845"
+        },
+        "type": 0,
+        "userCount": 29977
+      },
+      "id": 11369481,
+      "roundInfo": {
+        "round": 22
+      },
+      "slug": "las-palmas-real-madrid",
+      "startTimestamp": 1706472000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2836,
+        "name": "Atlético Madrid",
+        "nameCode": "ATM",
+        "national": false,
+        "shortName": "Atl. Madrid",
+        "slug": "atletico-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#c40000",
+          "text": "#c40000"
+        },
+        "type": 0,
+        "userCount": 504232
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsLgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11368767,
+      "roundInfo": {
+        "round": 23
+      },
+      "slug": "atletico-madrid-real-madrid",
+      "startTimestamp": 1707076800,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 24264,
+        "name": "Girona",
+        "nameCode": "GIR",
+        "national": false,
+        "shortName": "Girona",
+        "slug": "girona",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "type": 0,
+        "userCount": 54874
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsoKj",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11368762,
+      "roundInfo": {
+        "round": 24
+      },
+      "slug": "girona-real-madrid",
+      "startTimestamp": 1707681600,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "tgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2818,
+        "name": "Rayo Vallecano",
+        "nameCode": "RVC",
+        "national": false,
+        "shortName": "Rayo Vallecano",
+        "slug": "rayo-vallecano",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 57244
+      },
+      "id": 11368743,
+      "roundInfo": {
+        "round": 25
+      },
+      "slug": "real-madrid-rayo-vallecano",
+      "startTimestamp": 1708286400,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2833,
+        "name": "Sevilla",
+        "nameCode": "SEV",
+        "national": false,
+        "shortName": "Sevilla",
+        "slug": "sevilla",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#cc1020",
+          "text": "#cc1020"
+        },
+        "type": 0,
+        "userCount": 273552
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "EgbsIgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11368736,
+      "roundInfo": {
+        "round": 26
+      },
+      "slug": "sevilla-real-madrid",
+      "startTimestamp": 1708891200,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "DgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2828,
+        "name": "Valencia",
+        "nameCode": "VCF",
+        "national": false,
+        "shortName": "Valencia",
+        "slug": "valencia",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "type": 0,
+        "userCount": 119310
+      },
+      "id": 11368730,
+      "roundInfo": {
+        "round": 27
+      },
+      "slug": "real-madrid-valencia",
+      "startTimestamp": 1709496000,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2821,
+        "name": "Celta Vigo",
+        "nameCode": "RCC",
+        "national": false,
+        "shortName": "Celta",
+        "slug": "celta-vigo",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#6cace4",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "type": 0,
+        "userCount": 65380
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "wgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "id": 11368722,
+      "roundInfo": {
+        "round": 28
+      },
+      "slug": "real-madrid-celta-vigo",
+      "startTimestamp": 1710100800,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    },
+    {
+      "awayScore": {},
+      "awayTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2829,
+        "name": "Real Madrid",
+        "nameCode": "RMA",
+        "national": false,
+        "shortName": "Real Madrid",
+        "slug": "real-madrid",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#004996",
+          "text": "#004996"
+        },
+        "type": 0,
+        "userCount": 1558230
+      },
+      "changes": {
+        "changeTimestamp": 0
+      },
+      "crowdsourcingDataDisplayEnabled": false,
+      "customId": "vgbsEgb",
+      "finalResultOnly": false,
+      "hasGlobalHighlights": false,
+      "homeScore": {},
+      "homeTeam": {
+        "country": {
+          "alpha2": "ES",
+          "name": "Spain"
+        },
+        "disabled": false,
+        "gender": "M",
+        "id": 2820,
+        "name": "Osasuna",
+        "nameCode": "OSA",
+        "national": false,
+        "shortName": "Osasuna",
+        "slug": "osasuna",
+        "sport": {
+          "id": 1,
+          "name": "Football",
+          "slug": "football"
+        },
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#14213d",
+          "text": "#14213d"
+        },
+        "type": 0,
+        "userCount": 67712
+      },
+      "id": 11368711,
+      "roundInfo": {
+        "round": 29
+      },
+      "slug": "real-madrid-osasuna",
+      "startTimestamp": 1710705600,
+      "status": {
+        "code": 0,
+        "description": "Not started",
+        "type": "notstarted"
+      },
+      "time": {},
+      "tournament": {
+        "category": {
+          "alpha2": "ES",
+          "flag": "spain",
+          "id": 32,
+          "name": "Spain",
+          "slug": "spain",
+          "sport": {
+            "id": 1,
+            "name": "Football",
+            "slug": "football"
+          }
+        },
+        "id": 36,
+        "name": "LaLiga",
+        "priority": 579,
+        "slug": "laliga",
+        "uniqueTournament": {
+          "category": {
+            "alpha2": "ES",
+            "flag": "spain",
+            "id": 32,
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "id": 1,
+              "name": "Football",
+              "slug": "football"
+            }
+          },
+          "country": {},
+          "crowdsourcingEnabled": false,
+          "displayInverseHomeAwayTeams": false,
+          "hasEventPlayerStatistics": true,
+          "hasPerformanceGraphFeature": true,
+          "id": 8,
+          "name": "LaLiga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "slug": "laliga",
+          "userCount": 832871
+        }
+      }
+    }
+  ],
+  "hasNextPage": true
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userauth_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.realmadridinfo.ui.main.home.HomeFragment"
+        android:label="homeFragment"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/playersFragment"
+        android:name="com.realmadridinfo.ui.main.players.PlayersFragment"
+        android:label="playersFragment"
+        tools:layout="@layout/fragment_players">
+        <action
+            android:id="@+id/action_playersFragment_to_playerDetailsFragment"
+            app:destination="@id/playerDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/playerDetailsFragment"
+        android:name="com.realmadridinfo.ui.main.playerdetails.PlayerDetailsFragment"
+        android:label="playerDetailsFragment"
+        tools:layout="@layout/fragment_player_details">
+        <argument
+            android:name="player"
+            app:argType="com.realmadridinfo.data.models.Player" />
+    </fragment>
+</navigation>

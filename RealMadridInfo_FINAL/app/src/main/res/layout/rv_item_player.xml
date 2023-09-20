@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <data>
+        <variable
+            name="player"
+            type="com.realmadridinfo.data.models.Player" />
+    </data>
+
+    <LinearLayout
+        style="@style/rv_item_default">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:contentDescription="@string/text_image"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:imageUrl="@{player.imageUrl}" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tv_default"
+                android:layout_marginTop="@dimen/normal_100"
+                app:layout_constraintTop_toBottomOf="@id/iv_item_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:name="@{player.name}" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                style="@style/tv_default"
+                android:layout_marginTop="@dimen/normal_100"
+                app:layout_constraintTop_toBottomOf="@id/tv_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:proposedMarketValue="@{player.proposedMarketValue}" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</layout>
